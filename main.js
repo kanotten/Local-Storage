@@ -34,3 +34,21 @@ window.localStorage.setItem("recipe",JSON.stringify (ragu));
 window.localStorage.setItem("wine", JSON.stringify(barbera));
 window.localStorage.setItem("plans", "Dinner");
 
+
+//add eventlistner
+
+const body = document.querySelector("body");
+const mainBtn = document.querySelector(".mainBtn");
+
+function toggleBtn () {
+    isDarkMode = true;
+    body.style.backgroundColor = "#0A0A0A";
+
+
+}
+
+mainBtn.addEventlistner("click", toggleBtn)
+
+
+
+toggleBtn();

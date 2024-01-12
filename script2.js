@@ -8,3 +8,7 @@ console.log(myCar);
 
 const myCarParsed = JSON.parse(myCar);
 console.log(myCarParsed);
+
+
+const recipeParsed = JSON.parse(ragu);
+console.log(recipeParsed);

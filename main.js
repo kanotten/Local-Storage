@@ -17,3 +17,20 @@ let car = {
 window.localStorage.setItem("myCar", JSON.stringify(car));
 
 window.sessionStorage.setItem("fav", "bmw");
+
+// tasks by using local storage
+
+let ragu = ["carrots", "onion", "selleri"];
+
+let barbera = {
+    origin: "Italy",
+    year: 2018,
+    taste: "sweet"
+}
+
+let event = "Dinner";
+
+window.localStorage.setItem("recipe",JSON.stringify (ragu));
+window.localStorage.setItem("wine", JSON.stringify(barbera));
+window.localStorage.setItem("plans", "Dinner");
+
